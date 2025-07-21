@@ -18,5 +18,5 @@ export default defineConfig({
     }),
     fixCorsAttribute(),
   ],
-  base: '/rsschool_deploy/museum/',
+  base: '/rsschool-deploy/museum/',
 })
