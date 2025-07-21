@@ -18,5 +18,5 @@ export default defineConfig({
     }),
     fixCorsAttribute(),
   ],
-  base: '/baktify-JSFEPRESCHOOL2025Q2/museum/',
+  base: '/rs_deploy/museum/',
 })
