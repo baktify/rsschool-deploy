@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import { useId } from 'react'
+import uniqid from 'uniqid'
 
 const LogoWrapper = styled.a`
   display: flex;
@@ -20,7 +20,7 @@ const LogoText = styled.div`
 `
 
 const Logo = () => {
-  const id = useId()
+  const id = uniqid()
 
   return (
     <LogoWrapper href="#">
